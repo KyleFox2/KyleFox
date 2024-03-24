@@ -1,38 +1,100 @@
-.App {
+/* 
+white text - FFFFFF
+Orange text - FF6E32 
+Grey background - 252934
+Accent colour - 5C5752
+*/
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #252934;
+  padding: 20px;
+  box-sizing: border-box;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-items li {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.nav-items li a {
+  color: inherit;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.nav-items li a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ff6e32;
+}
+
+#kf {
+  border: solid;
+  border-width: 2px;
+  border-color: #ff6e32;
+  color: #ff6e32;
+}
+
+#introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+#introduction p {
+  margin-bottom: 2rem;
+  max-width: 800px;
+  font-size: x-large;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.intro-wrapper {
   flex-direction: column;
-  align-items: center;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.viewWorkBtn {
+  font-size: x-large;
+  color: #252934;
+  font-weight: bolder;
+  background-color: #ff6e32;
+  border: solid;
+  border-width: 2px;
+  border-color: #ff6e32;
+  padding: 1rem 4rem 1rem 4rem;
+  border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.viewWorkBtn:hover {
+  background: rgb(255, 110, 50, 90%);
+  border: solid;
+  border-width: 2px;
+  border-color: #ff6e32;
+  padding: 1rem 4rem 1rem 4rem;
+  border-radius: 5px;
 }

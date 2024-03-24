@@ -1,13 +1,88 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* 
+white text - FFFFFF
+Orange text - FF6E32 
+Grey background - 252934
+Accent colour - 5C5752
+*/
+::before {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html body #root {
+  background-color: #252934;
+  font-family: Cambria, Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  color: rgb(255, 255, 255, 80%);
+}
+
+body {
+  margin: 0%;
+}
+
+button {
+  font-family: inherit;
+}
+
+header {
+  display: flex;
+  align-items: flex-end;
+  font-size: large;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.project {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.highlight {
+  color: #ff6e32;
+}
+
+.subtle-highlight {
+  color: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #252934;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 255, 255, 80%);
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff6e32;
 }
