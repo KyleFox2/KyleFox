@@ -42,7 +42,7 @@ Accent colour - 5C5752
 }
 
 .nav-items li a:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.01);
   color: #ff6e32;
 }
 
@@ -53,7 +53,7 @@ Accent colour - 5C5752
   color: #ff6e32;
 }
 
-#introduction {
+section {
   display: flex;
   flex-direction: column;
   justify-content: center;
