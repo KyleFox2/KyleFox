@@ -13,7 +13,7 @@ Accent colour - 5C5752
   padding: 20px;
   box-sizing: border-box;
   z-index: 1000;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 20%);
 }
 
 .navbar {
@@ -35,14 +35,14 @@ Accent colour - 5C5752
 }
 
 .nav-items li a {
-  color: inherit;
+  color: #fff;
   text-decoration: none;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 1rem;
 }
 
 .nav-items li a:hover {
-  background-color: rgba(255, 255, 255, 0.01);
+  background-color: rgba(255, 255, 255, 10%);
   color: #ff6e32;
 }
 
@@ -99,11 +99,14 @@ p {
 }
 
 #about {
+  display: flex;
+}
+
+#about-container {
   display: grid;
-  justify-content: center;
-  align-items: center;
   grid-template-columns: 1fr 1fr;
   min-width: 60%;
+  gap: 1rem;
 }
 
 .about-title {
@@ -111,18 +114,137 @@ p {
   align-items: center;
   justify-content: center;
   grid-column: span 2;
+  padding: 3rem;
+  margin-top: 4rem;
 }
 
 .about-me {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
-.skills {
+.skills-title {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-template-rows: repeat(3, min-content);
+  gap: 1rem;
   justify-content: center;
+  font-size: 1.25rem;
+  margin-top: 1.25rem;
+}
+
+.skills-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: rgb(255, 255, 255, 10%);
+}
+
+.skills-items:hover {
+  color: #ff6e32;
+}
+
+#projects {
+  display: flex;
+}
+
+.title {
+  padding: 3rem;
+  margin-top: 4rem;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(250px, 1fr));
+  grid-gap: 5rem;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.project:hover {
+  background-color: rgb(255, 255, 255, 10%);
+  border-radius: 1rem;
+}
+
+.project h3 {
+  color: #fff;
+}
+
+.project:hover h3 {
+  color: #ff6e32;
+}
+
+#experience {
+  display: flex;
+}
+
+#experience-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 65%;
+  gap: 1rem;
+}
+
+.experience-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: span 2;
+  padding: 3rem;
+  margin-top: 4rem;
+}
+
+.relevant-experience {
+  display: grid;
+  justify-content: center;
+}
+
+.experience-items {
+  display: flex;
+  flex-direction: column;
+}
+
+#experience-list {
+  list-style: circle;
+  padding-left: 1.5rem;
+}
+
+.education {
+  display: grid;
+  justify-content: center;
+}
+
+#experience p {
+  max-width: fit-content;
+  margin: 0;
+  font-size: 1rem;
+}
+
+#experience li {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.education-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.education-items h4:hover {
+  color: #ff6e32;
 }

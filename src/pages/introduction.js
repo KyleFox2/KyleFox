@@ -5,10 +5,8 @@ function Introduction() {
   return (
     <section id="introduction">
       <div className="intro-wrapper">
-        <h1>
-          <span className="subtle-highlight">
-            Hi, I'm <span className="highlight">Kyle Fox</span>. I'm an SDET.
-          </span>
+        <h1 className="subtle-highlight">
+          Hi, I'm <span className="highlight">Kyle Fox</span>. I'm an SDET.
         </h1>
         <p className="intro-text">
           I ensure top-notch performance and reliability for web applications
