@@ -16,6 +16,41 @@ Accent colour - 5C5752
   box-shadow: 0 2px 4px rgba(0, 0, 0, 20%);
 }
 
+.socials {
+  position: absolute;
+  left: 0px;
+  padding: 0.5rem;
+  /* background-color: rgb(255, 255, 255); */
+}
+
+svg {
+  padding: 0;
+  margin: 0;
+  height: 64px;
+  width: 64px;
+}
+
+/* .svg-linkedin {
+  height: 3rem;
+  width: 3rem;
+}
+
+.svg-github {
+  height: 3rem;
+  width: 3rem;
+  padding: 0;
+} */
+
+.svg-github path {
+  height: 2rem;
+  width: 2rem;
+}
+
+.socials ul {
+  list-style: none;
+  padding: 0;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -160,6 +195,9 @@ p {
 .title {
   padding: 3rem;
   margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .projects-container {
@@ -220,13 +258,15 @@ p {
 }
 
 #experience-list {
-  list-style: circle;
+  list-style: style none;
   padding-left: 1.5rem;
+  content: "\00BB";
 }
 
 .education {
   display: grid;
   justify-content: center;
+  max-height: 10rem;
 }
 
 #experience p {
@@ -238,6 +278,13 @@ p {
 #experience li {
   font-size: 1rem;
   margin-bottom: 1rem;
+  list-style: disc;
+}
+
+#experience li::marker {
+  color: #ff6e32;
+  background-color: #ff6e32;
+  font-size: 1.25rem;
 }
 
 .education-items {
@@ -247,4 +294,92 @@ p {
 
 .education-items h4:hover {
   color: #ff6e32;
+}
+
+#contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: rgb(255, 255, 255, 10%);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#contact-form button {
+  align-items: flex-end;
+}
+
+label {
+  font-size: 1.25rem;
+  padding: 1rem 0rem 0.5rem 0rem;
+  color: #fff;
+}
+
+label:first-child {
+  font-size: 1.25rem;
+  padding: 0rem 0rem 0.5rem 0rem;
+}
+
+input {
+  border: none;
+  border-radius: 1rem;
+  height: 2rem;
+  width: 40rem;
+  padding: 1rem;
+  background-color: #252934;
+  color: #fff;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+input::placeholder {
+  color: rgb(255, 255, 255, 60%);
+}
+
+input:focus {
+  border: none;
+  outline: none;
+}
+
+.message-input {
+  border: none;
+  border-radius: 1rem;
+  height: 5rem;
+  color: #fff;
+  width: 40rem;
+  padding: 1rem;
+  background-color: #252934;
+  font-size: 1rem;
+  font-family: inherit;
+  resize: none;
+}
+
+textarea::placeholder {
+  color: rgb(255, 255, 255, 60%);
+}
+
+textarea:focus {
+  border: none;
+  outline: none;
+}
+
+.submit-btn {
+  margin-top: 2rem;
+  align-items: flex-end;
+}
+
+footer {
+  padding: 2rem;
+  font-size: 1rem;
 }

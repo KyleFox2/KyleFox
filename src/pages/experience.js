@@ -7,8 +7,15 @@ function Experience() {
         <h3 className="skills-title subtle-highlight">Education</h3>
         <div className="relevant-experience">
           <div className="experience-items">
-            <h4>QA Engineer @ Linney</h4>
-            <p>April 2021 – August 2023 | Nottingham</p>
+            <h4>
+              <span>
+                QA Engineer
+                <span className="highlight"> @ Linney</span>
+              </span>
+            </h4>
+            <p className="subtle-highlight">
+              February 2024 – Present | Nottingham
+            </p>
             <ul id="experience-list">
               <li>
                 Successfully operated as the test lead on multiple projects,
@@ -26,8 +33,15 @@ function Experience() {
             </ul>
           </div>
           <div className="experience-items">
-            <h4>Software Tester @ Tribal Group</h4>
-            <p>April 2021 – August 2023 | Nottingham</p>
+            <h4>
+              <span>
+                Software Tester
+                <span className="highlight"> @ Tribal Group</span>
+              </span>
+            </h4>
+            <p className="subtle-highlight">
+              April 2021 – August 2023 | Nottingham
+            </p>
             <ul id="experience-list">
               <li>
                 Successfully operated as the test lead on multiple projects,
@@ -47,15 +61,30 @@ function Experience() {
         </div>
         <div className="education">
           <div className="education-items">
-            <h4>BCS | Level 4 Software Testing Apprenticeship</h4>
+            <h4>
+              <span>
+                <span className="highlight">BCS </span>| Level 4 Software
+                Testing Apprenticeship
+              </span>
+            </h4>
             <p>April 2021 – April 2023 | Distinction</p>
           </div>
           <div className="education-items">
-            <h4>ISTQB | Certified Tester Foundation Level</h4>
+            <h4>
+              <span>
+                <span className="highlight">ISTQB </span>| Certified Tester
+                Foundation Level
+              </span>
+            </h4>
             <p>July 2022 | Passed</p>
           </div>
           <div className="education-items">
-            <h4>ISTQB | Certified Tester Foundation Level</h4>
+            <h4>
+              <span>
+                <span className="highlight">ISTQB </span>| Certified Tester
+                Foundation Level
+              </span>
+            </h4>
             <p>July 2022 | Passed</p>
           </div>
         </div>
