@@ -6,7 +6,6 @@ import Projects from "./pages/projects";
 import Experience from "./pages/experience";
 import Contact from "./pages/contact";
 import Nav from "./components/nav";
-import Footer from "./components/footer";
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
       <Projects />
       <Experience />
       <Contact />
-      <Footer />
     </div>
   );
 }

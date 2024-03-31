@@ -1,11 +1,6 @@
-function Nav() {
-  const navItems = [
-    { name: "About", link: "./#about" },
-    { name: "Projects", link: "./#projects" },
-    { name: "Experience", link: "./#experience" },
-    { name: "Contact", link: "./#contact" },
-  ];
+import datafile from "../datafile.json";
 
+function Nav() {
   return (
     <header>
       <nav className="navbar">
@@ -17,7 +12,7 @@ function Nav() {
           </li>
         </ul>
         <ul className="nav-items">
-          {navItems.map((item, index) => (
+          {datafile.navItems.map((item, index) => (
             <li key={index}>
               <a href={item.link} className="navBtn">
                 {item.name}

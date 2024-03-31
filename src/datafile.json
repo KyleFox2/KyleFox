@@ -1,0 +1,101 @@
+{
+  "aboutMe": [
+    {
+      "paragraph": "Hey there! I'm Kyle and I have over 3 years of industry experience. Since joining Linney, I focus on automation using primarily Playwright with TypeScript. My journey started with a Distinction in my level 4 Software Testing apprenticeship, providing valuable industry exposure."
+    },
+    {
+      "paragraph": "With my ISTQB certification, I've gained both theoretical knowledge and practical skills. While I still value meticulous test plans, my recent focus has been on automation, aiming to streamline processes and ensure software quality at scale."
+    },
+    {
+      "paragraph": "I'm passionate about staying in the know about technological advancements, and I work on a bunch of projects in my free time too, you can check out some of these below!"
+    }
+  ],
+  "skills": [
+    "Playwright",
+    "Cypress",
+    "Selenium",
+    "SQL",
+    "Postman",
+    "JavaScript",
+    "HTML",
+    "React",
+    "CSS",
+    "C#",
+    "Github",
+    "Excel"
+  ],
+  "projects": [
+    {
+      "title": "Blog Site",
+      "src": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
+      "description": "Description of the project goes here.",
+      "link": "./"
+    },
+    {
+      "title": "Password Manager",
+      "src": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
+      "description": "Description of the project goes here.",
+      "link": "./"
+    },
+    {
+      "title": "Portfolio Site",
+      "src": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
+      "description": "Description of the project goes here.",
+      "link": "./"
+    },
+    {
+      "title": "Clock App",
+      "src": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
+      "description": "Description of the project goes here.",
+      "link": "./"
+    },
+    {
+      "title": "Calculator",
+      "src": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
+      "description": "Description of the project goes here.",
+      "link": "./"
+    },
+    {
+      "title": "Demo Selenium Project",
+      "src": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
+      "description": "Description of the project goes here.",
+      "link": "./"
+    }
+  ],
+  "navItems": [
+    { "name": "About", "link": "./#about" },
+    { "name": "Projects", "link": "./#projects" },
+    { "name": "Experience", "link": "./#experience" },
+    { "name": "Contact", "link": "./#contact" }
+  ],
+  "experienceItems": [
+    {
+      "role": "QA Engineer",
+      "company": "Linney",
+      "dateWorked": "February 2024 – Present | Nottingham",
+      "p1": "Engineered automated tests using Playwright and TypeScript, enhancing efficiency and accuracy in testing processes.",
+      "p2": "Conducted meticulous testing on screens and media players for renowned brands like McDonald's and TUI, ensuring exceptional user experiences and product reliability.",
+      "p3": "Managed support tickets involving complex SQL queries, swiftly resolving issues to ensure seamless operations."
+    },
+    {
+      "role": "Software Tester",
+      "company": "Tribal Group",
+      "dateWorked": "April 2021 – August 2023 | Nottingham",
+      "p1": "Successfully operated as the test lead on multiple projects, managing and coaching 2 new testers.",
+      "p2": "Launched the test plan environment within Azure DevOps and created summary reports to accurately and efficiently convey the test status to stakeholders.",
+      "p3": "Created complex SQL queries to perform calculations and transform data into the same format as the items under test."
+    }
+  ],
+  "educationItems": [
+    {
+      "examBoard": "BCS",
+      "qualification": "| Level 4 Software Testing Apprenticeship",
+      "datePassed": "April 2021 – April 2023 | Distinction"
+    },
+    {
+      "examBoard": "ISTQB",
+      "qualification": "| Certified Tester Foundation Level",
+      "datePassed": "July 2022 | Passed"
+    }
+  ]
+}
