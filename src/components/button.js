@@ -1,7 +1,9 @@
-function Button({ text, link, className, index }) {
+function Button({ text, link, className, type, index }) {
   return (
     <a href={link} key={index}>
-      <button className={className}>{text}</button>
+      <button type={type} className={className}>
+        {text}
+      </button>
     </a>
   );
 }

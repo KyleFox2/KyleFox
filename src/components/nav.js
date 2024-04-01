@@ -1,4 +1,5 @@
 import datafile from "../datafile.json";
+import { useState, useEffect } from "react";
 
 function Nav() {
   return (

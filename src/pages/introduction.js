@@ -15,9 +15,9 @@ function Introduction() {
         </p>
         <Button text="Projects" link="./#projects" className="viewWorkBtn" />
       </div>
-      <div class="mouse-container">
-        <span class="scroll-icon">
-          <span class="scroll-icon_dot"></span>
+      <div className="mouse-container">
+        <span className="scroll-icon">
+          <span className="scroll-icon_dot"></span>
         </span>
       </div>
     </section>
