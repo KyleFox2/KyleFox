@@ -29,25 +29,25 @@
       "title": "Portfolio Site",
       "src": "../project-images/portfolio.png",
       "description": "Description of the project goes here.",
-      "link": "./"
+      "link": "/portfolio"
     },
     {
       "title": "Clock App",
       "src": "../project-images/clock-app.png",
       "description": "Description of the project goes here.",
-      "link": "./"
+      "link": "/clockapp"
     },
     {
       "title": "Calculator",
       "src": "../project-images/calculator.png",
       "description": "Description of the project goes here.",
-      "link": "./"
+      "link": "/calculator"
     },
     {
       "title": "Demo Selenium Project",
       "src": "../project-images/demo-selenium-project.png",
       "description": "Description of the project goes here.",
-      "link": "./"
+      "link": "/demoseleniumproject"
     }
   ],
   "navItems": [
