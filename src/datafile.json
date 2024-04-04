@@ -29,25 +29,41 @@
       "title": "Portfolio Site",
       "src": "../project-images/portfolio.png",
       "description": "Description of the project goes here.",
+<<<<<<< HEAD
       "id": "1"
+=======
+      "link": "/portfolio"
+>>>>>>> 8a97900c5457a272d7894e21dc7cdb7b1da674aa
     },
     {
       "title": "Clock App",
       "src": "../project-images/clock-app.png",
       "description": "Description of the project goes here.",
+<<<<<<< HEAD
       "id": "2"
+=======
+      "link": "/clockapp"
+>>>>>>> 8a97900c5457a272d7894e21dc7cdb7b1da674aa
     },
     {
       "title": "Calculator",
       "src": "../project-images/calculator.png",
       "description": "Description of the project goes here.",
+<<<<<<< HEAD
       "id": "3"
+=======
+      "link": "/calculator"
+>>>>>>> 8a97900c5457a272d7894e21dc7cdb7b1da674aa
     },
     {
       "title": "Demo Selenium Project",
       "src": "../project-images/demo-selenium-project.png",
       "description": "Description of the project goes here.",
+<<<<<<< HEAD
       "id": "4"
+=======
+      "link": "/demoseleniumproject"
+>>>>>>> 8a97900c5457a272d7894e21dc7cdb7b1da674aa
     }
   ],
   "navItems": [
