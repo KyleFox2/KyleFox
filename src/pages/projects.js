@@ -40,6 +40,7 @@ function Projects() {
               description={project.description}
               link={project.link}
               key={index}
+              id={project.id}
             />
           ))}
         </div>
