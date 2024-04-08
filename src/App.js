@@ -1,34 +1,29 @@
-import React from "react";
-import "./App.css";
-import Introduction from "./pages/introduction";
-import About from "./pages/about";
-import Projects from "./pages/projects";
-import Experience from "./pages/experience";
-import Contact from "./pages/contact";
-import Nav from "./components/nav";
-import ProjectsDetailsScreen from "./pages/projectDetailsScreen";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import * as Imports from "./assets/importFile";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route
+    <Imports.BrowserRouter>
+      <Imports.Routes>
+        <Imports.Route
           path="/"
           element={
             <div className="container">
-              <Nav />
-              <Introduction />
-              <About />
-              <Projects />
-              <Experience />
-              <Contact />
+              <Imports.Nav />
+              <Imports.Introduction />
+              <Imports.About />
+              <Imports.Projects />
+              <Imports.Experience />
+              <Imports.Contact />
             </div>
           }
         />
-        <Route path="/projectdetails/:id" element={<ProjectsDetailsScreen />} />
-      </Routes>
-    </BrowserRouter>
+        <Imports.Route
+          path="/projectdetails/:id"
+          element={<Imports.ProjectsDetailsScreen />}
+        />
+        <Imports.Route path="*" element={<Imports.NotFoundPage />} />
+      </Imports.Routes>
+    </Imports.BrowserRouter>
   );
 }
 

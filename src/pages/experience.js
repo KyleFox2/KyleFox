@@ -1,4 +1,4 @@
-import datafile from "../datafile.json";
+import * as Imports from "../assets/importFile";
 
 function Experience() {
   return (
@@ -8,7 +8,7 @@ function Experience() {
         <h3 className="about-me subtle-highlight">Relevant Experience</h3>
         <h3 className="skills-title subtle-highlight">Education</h3>
         <div className="relevant-experience">
-          {datafile.experienceItems.map((items, index) => (
+          {Imports.datafile.experienceItems.map((items, index) => (
             <div key={index} className="experience-items">
               <h4>
                 <span>
@@ -26,11 +26,11 @@ function Experience() {
           ))}
         </div>
         <div className="education">
-          {datafile.educationItems.map((items, index) => (
+          {Imports.datafile.educationItems.map((items, index) => (
             <div key={index} className="education-items">
               <h4>
                 <span>
-                  <span className="highlight">{items.examBoard} </span>{" "}
+                  <span className="highlight">{items.examBoard} </span>
                   {items.qualification}
                 </span>
               </h4>

@@ -1,9 +1,7 @@
-import React, { useRef } from "react";
-import ProjectTile from "../components/projectTile";
-import datafile from "../datafile.json";
+import * as Imports from "../assets/importFile";
 
 function Projects() {
-  const projectContainerRef = useRef(null);
+  const projectContainerRef = Imports.useRef(null);
 
   const scrollToNext = () => {
     const container = projectContainerRef.current;
@@ -33,11 +31,11 @@ function Projects() {
           &larr;
         </button>
         <div className="projects-container" ref={projectContainerRef}>
-          {datafile.projects.map((project, index) => (
-            <ProjectTile
+          {Imports.datafile.projects.map((project, index) => (
+            <Imports.ProjectTile
               title={project.title}
               src={project.src}
-              description={project.description}
+              description={project.overview}
               link={project.link}
               key={index}
               id={project.id}

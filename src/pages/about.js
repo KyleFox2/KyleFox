@@ -1,5 +1,4 @@
-import Button from "../components/button";
-import datafile from "../datafile.json";
+import * as Imports from "../assets/importFile";
 
 function About() {
   return (
@@ -9,18 +8,22 @@ function About() {
         <h3 className="about-me subtle-highlight">Get to know me!</h3>
         <h3 className="skills-title subtle-highlight">Technical Skills</h3>
         <div className="about-me">
-          {datafile.aboutMe.map((items, index) => (
+          {Imports.datafile.aboutMe.map((items, index) => (
             <p key={index}>{items.paragraph}</p>
           ))}
         </div>
         <div className="skills">
-          {datafile.skills.map((items, index) => (
+          {Imports.datafile.skills.map((items, index) => (
             <div key={index} className="skills-items">
               {items}
             </div>
           ))}
         </div>
-        <Button text="Contact" link="./#contact" className="viewWorkBtn" />
+        <Imports.Button
+          text="Contact"
+          link="./#contact"
+          className="viewWorkBtn contact-btn"
+        />
       </div>
     </section>
   );

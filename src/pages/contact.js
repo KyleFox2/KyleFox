@@ -1,4 +1,4 @@
-import Button from "../components/button";
+import * as Imports from "../assets/importFile";
 
 function Contact() {
   return (
@@ -30,7 +30,7 @@ function Contact() {
               name="message"
             />
           </div>
-          <Button
+          <Imports.Button
             type="submit"
             text="Submit"
             className="viewWorkBtn submit-btn"

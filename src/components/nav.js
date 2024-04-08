@@ -1,21 +1,32 @@
-import datafile from "../datafile.json";
-import { useState, useEffect } from "react";
+import * as Imports from "../assets/importFile";
 
 function Nav() {
+  const baseUrl = window.location.origin;
+
+  Imports.useEffect(() => {
+    const hash = window.location.hash;
+    if (hash) {
+      const targetElement = document.querySelector(hash);
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, []);
+
   return (
     <header>
       <nav className="navbar">
         <ul className="nav-items">
           <li>
-            <a className="navBtn" id="kf" href="#">
+            <a className="navBtn" id="kf" href={baseUrl}>
               KF
             </a>
           </li>
         </ul>
         <ul className="nav-items">
-          {datafile.navItems.map((item, index) => (
+          {Imports.datafile.navItems.map((item, index) => (
             <li key={index}>
-              <a href={item.link} className="navBtn">
+              <a href={baseUrl + item.link} className="navBtn">
                 {item.name}
               </a>
             </li>

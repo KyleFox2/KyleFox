@@ -1,4 +1,4 @@
-import Button from "../components/button";
+import * as Imports from "../assets/importFile";
 
 function ProjectTile({ title, src, description, index, id }) {
   return (
@@ -6,7 +6,7 @@ function ProjectTile({ title, src, description, index, id }) {
       <h3>{title}</h3>
       <img src={process.env.PUBLIC_URL + src} alt="Portfolio Screenshot" />
       <p>{description}</p>
-      <Button
+      <Imports.Button
         text="Details"
         link={`/projectdetails/${id}`}
         className="viewWorkBtn"

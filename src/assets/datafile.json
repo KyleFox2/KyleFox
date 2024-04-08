@@ -1,0 +1,133 @@
+{
+  "aboutMe": [
+    {
+      "paragraph": "Hey there! I'm Kyle and I have over 3 years of industry experience. Since joining Linney, I focus on automation using primarily Playwright with TypeScript. My journey started with a Distinction in my level 4 Software Testing apprenticeship, providing valuable industry exposure."
+    },
+    {
+      "paragraph": "With my ISTQB certification, I've gained both theoretical knowledge and practical skills. While I still value meticulous test plans, my recent focus has been on automation, aiming to streamline processes and ensure software quality at scale."
+    },
+    {
+      "paragraph": "I'm passionate about staying in the know about technological advancements, and I work on a bunch of projects in my free time too, you can check out some of these below!"
+    }
+  ],
+  "skills": [
+    "Playwright",
+    "Cypress",
+    "Selenium",
+    "SQL",
+    "Postman",
+    "JavaScript",
+    "HTML",
+    "React",
+    "CSS",
+    "C#",
+    "Manual QA",
+    "Github",
+    "Excel"
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "link": "/portfolio",
+      "title": "Portfolio",
+      "src": "../project-images/portfolio.png",
+      "overview": "I built this project with react and it utilises a modular coding structure for readability. I automated the testing using Playwright with TypeScript.",
+      "description1": "This portfolio site was built with React in a modular coding structure primarily for maintainability and readability. I used a variety of tools, like HTML, CSS, JavaScript, React and React Router",
+      "description2": "I created test cases in excel, and automated them using TypeScript with Playwright. See the Github README for more details.",
+      "description3": "",
+      "techStack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Playwright",
+        "Github"
+      ],
+      "githubLink": "https://github.com/KyleFox2/KyleFox",
+      "liveSite": ""
+    },
+    {
+      "id": "2",
+      "link": "/clockapp",
+      "title": "Clock App",
+      "src": "../project-images/clock-app.png",
+      "overview": "This is a project I built with JavaScript, Express and tested with Playwright. This showcases a digital clock, stopwatch, timer, and a world clock.",
+      "description1": "Clock App is a local web application built with JavaScript and Express, showcasing various time-related functionalities such as digital clocks, stopwatches, timers, and a world clock. The app allows users to interact with different time-related features and provides information about weather conditions in various cities worldwide.",
+      "description2": "I created test cases in excel, and automated them using TypeScript with Playwright. In addition I used Jest to unit test the API i created. See the Github README for more details.",
+      "description3": "",
+      "techStack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "EJS",
+        "Playwright",
+        "TypeScript",
+        "Github"
+      ],
+      "githubLink": "https://github.com/KyleFox2/clock-app",
+      "liveSite": ""
+    },
+    {
+      "id": "3",
+      "link": "/calculator",
+      "title": "Calculator",
+      "src": "../project-images/calculator.png",
+      "overview": "A simple Calculator App, that I built with HTML, CSS, and JavaScript, for performing operations. I automated the testing using Cypress.",
+      "description1": "Calculator App is a simple web application designed for basic arithmetic calculations. Built with HTML, CSS, and JavaScript, it offers a straightforward interface for performing addition, subtraction, multiplication, and division operations.",
+      "description2": "I created test cases in excel, and automated them using JavaScript with Cypress. See the Github README for more details.",
+      "description3": "",
+      "techStack": ["HTML", "CSS", "JavaScript", "Cypress", "Github"],
+      "githubLink": "https://github.com/KyleFox2/calculator",
+      "liveSite": ""
+    },
+    {
+      "id": "4",
+      "link": "/demoseleniumproject",
+      "title": "Demo Selenium Project",
+      "src": "../project-images/demo-selenium-project.png",
+      "overview": "This is a testing project I did on a practice website to demonstrate the use of automated testing with Nunit and Selenium WebDriver in C#.",
+      "description1": "The project includes a sample web application with multiple pages, each representing different scenarios commonly encountered in web testing. The automated tests are designed to showcase various Selenium features, such as interacting with form elements, handling alerts, and validating page content.",
+      "description2": "I created test cases in excel, and automated them using C# with Selenium. See the Github README for more details.",
+      "description3": "",
+      "techStack": ["C#", "Selenium", "Nunit", "Page Object Model", "Github"],
+      "githubLink": "https://github.com/KyleFox2/demo-selenium-test",
+      "liveSite": "https://automationintesting.online/"
+    }
+  ],
+  "navItems": [
+    { "name": "About", "link": "/#about" },
+    { "name": "Projects", "link": "/#projects" },
+    { "name": "Experience", "link": "/#experience" },
+    { "name": "Contact", "link": "/#contact" }
+  ],
+  "experienceItems": [
+    {
+      "role": "QA Engineer",
+      "company": "Linney",
+      "dateWorked": "February 2024 – Present | Nottingham",
+      "p1": "Engineered automated tests using Playwright and TypeScript, enhancing efficiency and accuracy in testing processes.",
+      "p2": "Conducted meticulous testing on screens and media players for renowned brands like McDonald's and TUI, ensuring exceptional user experiences and product reliability.",
+      "p3": "Managed support tickets involving complex SQL queries, swiftly resolving issues to ensure seamless operations."
+    },
+    {
+      "role": "Software Tester",
+      "company": "Tribal Group",
+      "dateWorked": "April 2021 – August 2023 | Nottingham",
+      "p1": "Successfully operated as the test lead on multiple projects, managing and coaching 2 new testers.",
+      "p2": "Launched the test plan environment within Azure DevOps and created summary reports to accurately and efficiently convey the test status to stakeholders.",
+      "p3": "Created complex SQL queries to perform calculations and transform data into the same format as the items under test."
+    }
+  ],
+  "educationItems": [
+    {
+      "examBoard": "BCS",
+      "qualification": "| Level 4 Software Testing Apprenticeship",
+      "datePassed": "April 2021 – April 2023 | Distinction"
+    },
+    {
+      "examBoard": "ISTQB",
+      "qualification": "| Certified Tester Foundation Level",
+      "datePassed": "July 2022 | Passed"
+    }
+  ]
+}

@@ -1,9 +1,3 @@
-/* 
-white text - FFFFFF
-Orange text - FF6E32 
-Grey background - 252934
-Accent colour - 5C5752
-*/
 .navbar {
   position: fixed;
   top: 0;
@@ -139,12 +133,6 @@ svg:hover {
   max-width: 800px;
 }
 
-p {
-  margin-bottom: 2rem;
-  max-width: 600px;
-  font-size: 1.25rem;
-}
-
 .intro-wrapper {
   flex-direction: column;
   display: flex;
@@ -180,7 +168,7 @@ p {
 #about-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  min-width: 60%;
+  width: 1152px;
   gap: 1rem;
 }
 
@@ -203,6 +191,27 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.project-skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, auto);
+  grid-auto-flow: column;
+  gap: 1rem;
+  font-size: 1.25rem;
+  margin-top: 1.25rem;
+}
+
+.projectDetails-btns {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.project-img {
+  max-width: 50rem;
+  margin: 1rem;
 }
 
 .skills {
@@ -241,7 +250,9 @@ p {
 .projects-container {
   display: flex;
   flex-direction: row;
+  align-items: start;
   max-width: 1296px;
+  min-height: auto;
   overflow-x: hidden;
 }
 
