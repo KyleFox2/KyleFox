@@ -19,6 +19,7 @@ Testing
 -------
 
 *   **Playwright:** Conduct end-to-end tests to validate frontend interactions and functionalities.
+*   Open your browser and visit [here](https://docs.google.com/spreadsheets/d/1mc0iR2VqD6WDExO3YFGelYZbvez_0j1nZR7DwKcmUiw/edit?usp=sharing) to view the test cases.
 
 Technology Stack
 ----------------
