@@ -9,6 +9,7 @@ function ProjectTile({ title, src, description, index, id }) {
       <Imports.Button
         text="Details"
         link={`/projectdetails/${id}`}
+        id={id}
         className="viewWorkBtn"
       />
     </div>
