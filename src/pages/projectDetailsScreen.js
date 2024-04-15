@@ -9,7 +9,7 @@ function ProjectsDetailsScreen() {
     if (element.id === projectId) project = element;
   });
 
-  if (project.liveSite != "") {
+  if (project.liveSite !== "") {
     liveSite = (
       <Imports.Button
         text={"Live Site"}
