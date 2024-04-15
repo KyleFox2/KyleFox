@@ -247,13 +247,28 @@ svg:hover {
   align-items: center;
 }
 
-.projects-container {
-  display: flex;
-  flex-direction: row;
-  align-items: start;
-  max-width: 1296px;
-  min-height: auto;
-  overflow-x: hidden;
+@media screen and (max-width: 1500px) {
+  .projects-container {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    max-width: 864px;
+    /* max-width: 1296px; */
+    min-height: auto;
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .projects-container {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    /* max-width: 864px; */
+    max-width: 1296px;
+    min-height: auto;
+    overflow-x: hidden;
+  }
 }
 
 .title {
