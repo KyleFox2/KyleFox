@@ -12,7 +12,6 @@ function Contact() {
       })
       .then(
         () => {
-          window.location.href = "/";
           //console.log("SUCCESS!");
         },
         (error) => {

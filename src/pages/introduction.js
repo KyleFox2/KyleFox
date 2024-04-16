@@ -9,7 +9,7 @@ function Introduction() {
           Hi, I'm <span className="highlight">Kyle Fox</span>. I'm an SDET.
         </h1>
         <p className="intro-text">
-          I specialize in optimizing the performance, safety and reliability of
+          I specialise in optimizing the performance, safety and reliability of
           software. Let's work together to make software both robust and secure.
         </p>
         <Imports.Button
