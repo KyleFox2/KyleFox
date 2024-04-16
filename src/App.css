@@ -247,7 +247,7 @@ svg:hover {
   align-items: center;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1800px) {
   .projects-container {
     display: flex;
     flex-direction: row;
@@ -259,7 +259,7 @@ svg:hover {
   }
 }
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1800px) {
   .projects-container {
     display: flex;
     flex-direction: row;

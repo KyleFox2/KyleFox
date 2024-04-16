@@ -1,24 +1,44 @@
 import * as Imports from "../assets/importFile";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 function Contact() {
+  const form = useRef();
+
+  function sendEmail(e) {
+    emailjs
+      .sendForm("service_doqlrck", "template_8e5kwnr", form.current, {
+        publicKey: "AqEaDMII_mRKeX8-e",
+      })
+      .then(
+        () => {
+          window.location.href = "/";
+          //console.log("SUCCESS!");
+        },
+        (error) => {
+          //console.log("FAILED...", error.text);
+        }
+      );
+  }
+
   return (
     <section id="contact">
       <div>
         <h2 className="title highlight">Contact</h2>
-        <form>
+        <form ref={form} onSubmit={sendEmail}>
           <div id="contact-form">
             <label htmlFor="name">Name</label>
             <input
               placeholder="Enter Your Name"
               type="text"
-              name="name"
+              name="user_name"
               required
             />
             <label htmlFor="email">Email</label>
             <input
               placeholder="Enter Your Email"
               type="email"
-              name="email"
+              name="user_email"
               required
             />
             <label htmlFor="message">Message</label>
@@ -34,6 +54,7 @@ function Contact() {
             type="submit"
             text="Submit"
             className="viewWorkBtn submit-btn"
+            link={"/"}
           />
         </form>
       </div>

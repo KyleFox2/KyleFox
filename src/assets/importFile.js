@@ -15,6 +15,7 @@ import ProjectTile from "../components/projectTile";
 import Button from "../components/button";
 import Socials from "../components/socials";
 import datafile from "../assets/datafile.json";
+//import emailjs from "@emailjs/browser";
 
 export {
   React,
@@ -38,4 +39,5 @@ export {
   Socials,
   datafile,
   NotFoundPage,
+  //emailjs,
 };
